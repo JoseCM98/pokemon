@@ -17,7 +17,7 @@ export class PokemonComponent implements OnInit {
   displayedColumns: string[] = ['position', 'image', 'name'];
   data: any[] = [];
   constructor(private pokemonService: PokemonService) {}
-
+  //Mensaje de prueba
 
   ngOnInit(): void {
   }
