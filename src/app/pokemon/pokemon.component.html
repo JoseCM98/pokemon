@@ -1,0 +1,13 @@
+<label class="">Nombre Pokemon</label>
+<input type="text"(keyup)="search()" [(ngModel)]="name">
+<button button type="button" class="btn btn-primary" (click)="search()">Buscar</button>
+<div class="mx-auto" style="width: 400px;">
+<div class="card bg-secondary mb-3 card border-dark mb-3" style="width: 18rem;">
+  <img src="{{urlImage}}" alt="" width="200px" weight="200px" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{nom}}</h5>
+    <p class="card-text">{{peso}}</p>
+    <p class="card-text">{{altura}}</p>
+  </div>
+</div>
+</div>

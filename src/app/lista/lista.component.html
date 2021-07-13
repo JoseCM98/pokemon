@@ -1,0 +1,17 @@
+<table class="table">
+  <thead class="thead-dark">
+    <tr >
+      <th scope="col">Numero</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Imagen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let producto of data" >
+      <th scope="row">{{producto.position}}</th>
+      <td >{{producto.name}}</td>
+      <td><img src="{{producto.image}}" alt=""></td>
+
+    </tr>
+  </tbody>
+</table>
